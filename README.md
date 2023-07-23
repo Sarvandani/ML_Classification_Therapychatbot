@@ -241,18 +241,6 @@ data.head()
 nltk.download('stopwords')
 nltk.download('punkt')
 ```
-
-    [nltk_data] Downloading package stopwords to
-    [nltk_data]     /Users/mohamadians/nltk_data...
-    [nltk_data]   Package stopwords is already up-to-date!
-    [nltk_data] Downloading package punkt to
-    [nltk_data]     /Users/mohamadians/nltk_data...
-    [nltk_data]   Package punkt is already up-to-date!
-
-
-
-
-
     True
 
 
@@ -325,11 +313,6 @@ optimizer = AdamW(model.parameters(), lr=2e-5)
 loss_fn = torch.nn.CrossEntropyLoss()
 ```
 
-    /Users/mohamadians/opt/anaconda3/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-      warnings.warn(
-
-
-
 ```python
 # Training loop
 epochs = 15
@@ -384,11 +367,4 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred, target
 
 
 
-```python
 
-```
-
-
-```python
-
-```
