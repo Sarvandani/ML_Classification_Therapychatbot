@@ -1,4 +1,4 @@
-# NLP_Therapy
+# NLP_Tex_Classification_Therapychatbot
 
 The dataset comprises 80 user responses in the "response_text" column, obtained from interactions with a therapy chatbot (downloaded form this [link](https://www.kaggle.com/code/sercanyesiloz/therapy-chatbot-nlp/input)). The chatbot prompted the user with the statement: 'Describe a time when you have acted as a resource for someone else.' The users provided their responses, and these responses are classified into two categories: 'not flagged' and 'flagged'.
 
