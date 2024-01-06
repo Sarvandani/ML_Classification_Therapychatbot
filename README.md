@@ -5,7 +5,7 @@ The dataset comprises 80 user responses in the "response_text" column, obtained 
 In this classification task, our goal is to predict whether a user's response should be 'flagged' or 'not flagged' based on their input. If a response is classified as 'not flagged', the user can continue interacting with the chatbot. However, if it is classified as 'flagged', the user is referred to seek additional help or assistance.
 To accomplish this prediction, we will use the provided dataset to train a machine learning model. 
 
-There are two scripts in the repository, NLP_Therapy and NLP_predefined_model. NLP_predefined_model is based on pre-trained DistilBERT model and tokenizer from Hugging Face Transformers. 
+There are two scripts in the repository, CODE_Therapy and CODE_predefined_model. NLP_predefined_model is based on pre-trained DistilBERT model and tokenizer from Hugging Face Transformers. 
 
 ---------------------
 
